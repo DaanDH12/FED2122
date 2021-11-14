@@ -25,11 +25,11 @@ https://www.beatsbydre.com/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina, Beats by Dr Dre
-<img src="images/homepaginabeats" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepaginabeats.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Koop pagina, Beats by Dr Dre  
-<img src="images/kooppaginabeats" width="375px" alt="omschrijving van de pagina">
+<img src="images/kooppaginabeats.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
