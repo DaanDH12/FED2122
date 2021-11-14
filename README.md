@@ -29,7 +29,7 @@ Home pagina, Beats by Dr Dre
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Koop pagina, Beats by Dr Dre  
-<img src="images/kooppaginabeats.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/Kooppaginabeats.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
