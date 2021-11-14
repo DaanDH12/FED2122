@@ -17,18 +17,19 @@ Responsive
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Details</summary>
+
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.beatsbydre.com/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home pagina, Beats by Dr Dre
+<img src="images/homepaginabeats" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Koop pagina, Beats by Dr Dre  
+<img src="images/kooppaginabeats" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
