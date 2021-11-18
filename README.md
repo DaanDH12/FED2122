@@ -8,7 +8,7 @@
 Daan Honing
 
 #### Je startniveau:
-Rood
+Blauw
 
 #### Je focus:
 Responsive
