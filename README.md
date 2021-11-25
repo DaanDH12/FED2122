@@ -8,7 +8,7 @@
 Daan Honing
 
 #### Je startniveau:
-Rood
+Blauw
 
 #### Je focus:
 Responsive
@@ -41,7 +41,7 @@ Koop pagina, Beats by Dr Dre
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -71,7 +71,7 @@ Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-Student 4 - Daan Honing
+Student 4 - Daan Honing. //
 Ik wil graag bespreken hoe ik ervoor kan zorgen dat de animatie infade op mijn site
 
 
