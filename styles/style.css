@@ -3,3 +3,89 @@
   box-sizing:border-box;  
 }
 
+
+/* algemene styling */
+
+:root {
+  --header-height: 3.125em;
+}
+
+*, html {
+  font-family: "Neuzeit Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header styling */
+
+header {
+  height: var(--header-height);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+
+header nav {
+  height: var(--header-height);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+max-height: 100%;
+height: 50%;
+}
+
+/* main styling */
+
+/* Styling van de zwarte banner bovenaan de pagina */
+
+section:first-of-type {
+  height: 2.01375em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+}
+
+section:first-of-type a, img {
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-decoration: none;
+height: 75%;
+}
+
+section:first-of-type img {
+  margin-left: 0.25em;
+}
+
+/* styling van de witte blauwe beats image met bijbehorende elementen */
+
+section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5a7494;
+}
+
+section:nth-child(2) img {
+  height: 25.875em;
+}
+
+h1:first-of-type {
+display: flex;
+text-align: left;
+font-size: 20px;
+
+
+
+}
+

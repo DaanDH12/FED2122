@@ -8,7 +8,7 @@
 Daan Honing
 
 #### Je startniveau:
-Blauw
+Rood
 
 #### Je focus:
 Responsive
@@ -25,11 +25,11 @@ https://www.beatsbydre.com/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina, Beats by Dr Dre
-<img src="images/homepaginabeats.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepaginabeats" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Koop pagina, Beats by Dr Dre  
-<img src="images/Kooppaginabeats.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/kooppaginabeats" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -61,17 +61,18 @@ Koop pagina, Beats by Dr Dre
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het werken met de EM als grootte had ik eigenlijk nog nooit gedaan, maar is enorm handig. Ook vind ik het erg fijn dat we zijn begonnen met de mobiele versie aangezien dit een stuk makkelijker is. 
+
+Ik werk mijn code van boven naar beneden toe, zowel html als css, zodat ik altijd weet waar ik mee bezig ben. Op dit moment loopt mijn code best soepel en ben ik erg trots op het positioneren van dingen, aangezien ik hier voorheen altijd moeite mee had.
+
+Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig goed beeld van wat mij te wachten staat. Ik loop hiermee achter vanwege het werk van vormgeving.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Student 4 - Daan Honing
+Ik wil graag bespreken hoe ik ervoor kan zorgen dat de animatie infade op mijn site
 
 
 ### Verslag van meeting
