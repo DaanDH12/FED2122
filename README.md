@@ -8,7 +8,7 @@
 Daan Honing
 
 #### Je startniveau:
-Rood
+Blauw
 
 #### Je focus:
 Responsive
@@ -71,7 +71,7 @@ Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-Student 4 - Daan Honing
+Student 4 - Daan Honing. //
 Ik wil graag bespreken hoe ik ervoor kan zorgen dat de animatie infade op mijn site
 
 
