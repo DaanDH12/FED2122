@@ -11,7 +11,7 @@
 }
 
 *, html {
-  font-family: "Neuzeit Grotesk", sans-serif;
+  font-family: niveau-grotesk, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -35,6 +35,10 @@ header nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 
 header img{
@@ -77,15 +81,117 @@ section:nth-of-type(2) {
 }
 
 section:nth-child(2) img {
-  height: 25.875em;
+  display: flex;
+  height: 23em;
 }
 
 h1:first-of-type {
-display: flex;
-text-align: left;
-font-size: 20px;
-
-
-
+  display: flex;
+  text-align: inherit;
+  text-transform: uppercase;
+  font-size: 2.3125em;
+  font-weight: 900;
+  color: white;
 }
 
+p:first-of-type {
+  display: flex;
+  text-align: left;
+  font-size: 1em;
+  color: white;
+  letter-spacing: -0, 4px;
+  }
+
+  article:first-of-type {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+  }
+
+section:nth-of-type(2) p:nth-of-type(2) {
+    display: flex;
+    justify-content: left;
+    margin-right: 13em;
+    margin-top: 1em;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: bold;
+    }
+
+   section:nth-child(2) a:first-of-type {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 2em;
+     margin-right: 2em;
+     margin-left: 2em;
+     padding: 1em 2em 1em 2em;
+     background-color: white;
+     color: black;
+     text-decoration: none;
+     border-radius: 1.875em;
+     font-size: 0.8em;
+      }
+
+    section:nth-child(2) a:nth-of-type(2) {
+        display: flex;
+        margin-top: 2em;
+        margin-right: 6em;
+        padding: 1em 2em 1em 2em;
+        border: 0.125em;
+        border-color: white;
+        border-style: solid;
+        color: white;
+        text-decoration: none;
+        border-radius: 1.875em;
+        font-size: 0.8em;
+         }
+
+    a:first-of-type img:first-of-type {
+     height: 1em;
+     margin-left: 0.5em;
+    }
+
+    /* styling van de image met de man met beats oortjes in met bijbehorende elementen */
+
+    section:nth-of-type(3) img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20em;
+      margin-top: 2em;
+      margin-left: 7.5%;
+    }
+
+    section:nth-of-type(3) h1 {
+      color: #161616;
+      font-size: min(34px, max(28px, 0.555556vw + 26px));
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-left: 7.5%;
+    margin-bottom: 2em;
+    margin-top: 0.2em;
+    cursor: pointer;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+     /* styling van de image met de zwarte koptelefoon met bijbehorende elementen */
+
+    section:nth-of-type(4) img {
+      display: flex;
+      justify-content: center;
+      height: 23em;
+    }
