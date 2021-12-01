@@ -25,11 +25,11 @@ https://www.beatsbydre.com/nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina, Beats by Dr Dre
-<img src="images/homepaginabeats" width="375px" alt="omschrijving van de pagina">
+<img src="readmeimages/homepaginabeats" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Koop pagina, Beats by Dr Dre  
-<img src="images/kooppaginabeats" width="375px" alt="omschrijving van de pagina">
+<img src="readmeimages/kooppaginabeats" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -41,7 +41,7 @@ Koop pagina, Beats by Dr Dre
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+<img src="readmeimages/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -71,17 +71,26 @@ Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-Student 4 - Daan Honing. //
-Ik wil graag bespreken hoe ik ervoor kan zorgen dat de animatie infade op mijn site
+### student 1 Rebecca 
+ - Hoe ik het beste een logo in de Header zet 
+ - Hoe ik de P en H1 in een section kan aanpassen
+ - Waarom de pagina niet verder wil scrollen
 
+### student 2 Beyza          
+ -
+
+### student 3 Isabelle                                       
+ - Hoe ik het beste een img over een img kan zetten
+ - Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
+
+### student 4 Ik
+ - Hoe de animatie infade op mijn site zet
+ - Hoe ik mijn midden beter kan fixen
+ - Hoe ik ervoor kan zorgen dat de knoppen niet wrappen
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De meeting met Robert ging er goed. We hebben eerst gekeken naar de oefeningen en daarna naar de vragen van elke student. Zo heeft Robert ons bepaalde dingen via codepen laten zien die enorm kunnen helpen. Bij mij heeft ie laten zien hoe ik de knoppen kan fixen met behulp van nowrap en hoe ik het midden kan fixen met een span.
 
 </details>
 
@@ -95,7 +104,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Na het 1e feedback moment ben ik eigenlijk een stuk verder gekomen dan eerst. We kwamen er tijdens mijn eerste feedback moment achter dat mijn css nogal een experimenteer document bevatte die erg veel elementen had die veel makkelijker opgelost kunnen worden. Ik heb alles uitgesorteerd, nette notities bijgevoegd zodat dit enorm overzichtelijk is. 
+
+Hieronder een een screenshot van m'n site:
+### Hieronder een een screenshot van m'n site:: 
+<img src="readmeimages/voortgang2site.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 
 ### Agenda voor meeting
