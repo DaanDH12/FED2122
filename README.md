@@ -11,7 +11,7 @@ Daan Honing
 Blauw
 
 #### Je focus:
-Responsive
+Surface Plane
  
  
 ## Je website
@@ -67,6 +67,9 @@ Ik werk mijn code van boven naar beneden toe, zowel html als css, zodat ik altij
 
 Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig goed beeld van wat mij te wachten staat. Ik loop hiermee achter vanwege het werk van vormgeving.
 
+### Hieronder een een screenshot van m'n site:: 
+<img src="readmeimages/voortgang1site.png" width="375px" alt="voortgang1site">
+(vergeten foto van mijn code te maken, aangezien ik al verder was gegaan. Zie week 2 voor mijn voortgangcode)
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -83,7 +86,7 @@ samen met je groepje opstellen
  - Hoe ik het beste een img over een img kan zetten
  - Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
 
-### student 4 Ik
+### student 4 Daan
  - Hoe de animatie infade op mijn site zet
  - Hoe ik mijn midden beter kan fixen
  - Hoe ik ervoor kan zorgen dat de knoppen niet wrappen
@@ -107,31 +110,34 @@ De meeting met Robert ging er goed. We hebben eerst gekeken naar de oefeningen e
 Na het 1e feedback moment ben ik eigenlijk een stuk verder gekomen dan eerst. We kwamen er tijdens mijn eerste feedback moment achter dat mijn css nogal een experimenteer document was die erg veel elementen had die veel makkelijker opgelost kunnen worden. Ik heb alles uitgesorteerd, nette notities bijgevoegd zodat dit enorm overzichtelijk is. 
 
 ### Hieronder een een screenshot van m'n site:: 
-<img src="readmeimages/voortgang2site.png" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readmeimages/voortgang2site.png" width="375px" alt="voortgang2site">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+### student 1 Rebecca 
+ -  Hoe spreek ik een article in een section aan in de footer zonder de code van de daarvoor aangesproken article in section te krijgen?
+### student 2 Beyza 
+ -
+### student 3 Isabelle 
+ - Hoe kan ik het beste mijn hamburger menu uitklappen? 
+ - Waarom schaalt deze afbeelding niet mee naar 'center' als ik wel hetzelfde heb gecodeerd als de andere? - regel 205
 
+### student 4 Daan
+- Hoe kan ik mijn menu button laten animeren?
+- Hoe kan er voorzorgen dat de menu knop bovenaan staat
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Samen met Rowin hebben wij een aantal dingen besproken:
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Hoe een menu werkt en hoe je dit het best kunt aanpakken, zonder dat er iets kapot gaat binnen de code.
+- Dat ik nog even mijn alt's in de images moet bijwerken aangezien deze leeg zijn.
+- Dat ik het menu nog even moest stijlen en als ik tijd over had de zoekknop maken.
+- Dat ik het menu in het menu niet per se hoef te doen tenzij ik tijd over had. 
+- Voor de rest zag mijn code er goed uit en kon ik aan de slag met mijn 2e pagina.
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest (week 4)
