@@ -104,9 +104,8 @@ De meeting met Robert ging er goed. We hebben eerst gekeken naar de oefeningen e
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Na het 1e feedback moment ben ik eigenlijk een stuk verder gekomen dan eerst. We kwamen er tijdens mijn eerste feedback moment achter dat mijn css nogal een experimenteer document bevatte die erg veel elementen had die veel makkelijker opgelost kunnen worden. Ik heb alles uitgesorteerd, nette notities bijgevoegd zodat dit enorm overzichtelijk is. 
+Na het 1e feedback moment ben ik eigenlijk een stuk verder gekomen dan eerst. We kwamen er tijdens mijn eerste feedback moment achter dat mijn css nogal een experimenteer document was die erg veel elementen had die veel makkelijker opgelost kunnen worden. Ik heb alles uitgesorteerd, nette notities bijgevoegd zodat dit enorm overzichtelijk is. 
 
-Hieronder een een screenshot van m'n site:
 ### Hieronder een een screenshot van m'n site:: 
 <img src="readmeimages/voortgang2site.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
@@ -230,8 +229,18 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.beatsbydre.com/content/dam/beats/global/logos/beats-logo-161616.png
+2. https://www.beatsbydre.com/content/dam/beats/web/home/2021/11/studiobuds-hp-p01.jpg.small.1x.jpg
+3. https://www.beatsbydre.com/content/dam/beats/web/home/2021/04/flex-hp-02.jpg.small.1x.jpg
+4. https://www.beatsbydre.com/content/dam/beats/web/home/2021/04/pbpro-hp-03.jpg.small.1x.jpg
+5. https://www.beatsbydre.com/content/dam/beats/web/home/2020/hp-04.jpg.small.2x.jpg 
+6. https://www.svgrepo.com/svg/137277/twitter
+7. https://www.svgrepo.com/svg/370947/youtube
+8. https://www.svgrepo.com/svg/132839/facebook
+9. https://www.svgrepo.com/svg/111199/instagram
+10. http://www.w3.org/2000/svg
+11. https://www.svgrepo.com/svg/3271/arrow-pointing-to-right-in-a-circle
+12. https://www.svgrepo.com/svg/7385/apple
+
 
 </details>

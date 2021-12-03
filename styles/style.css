@@ -1,6 +1,8 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 
@@ -14,17 +16,18 @@
 }
 
 section {
-opacity: 0;
-transition: opacity 1s ease-in;
+  opacity: 0;
+  transition: opacity 1s ease-in;
 
 }
 
 section.fade {
   opacity: 1;
-  transition: opacity .4s ease-out,transform .4s ease-out,-webkit-transform .4s ease-out;
+  transition: opacity .4s ease-out, transform .4s ease-out, -webkit-transform .4s ease-out;
 }
 
-*, html {
+*,
+html {
   font-family: niveau-grotesk, sans-serif;
   margin: 0;
   padding: 0;
@@ -42,11 +45,11 @@ button {
   background-color: transparent;
   margin-left: 1em;
   margin-right: 1em;
-  }
+}
 
 header nav {
   height: var(--header-height);
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -54,18 +57,108 @@ header nav {
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 2;
 }
 
-header img{
-max-height: 100%;
-height: 50%;
+header img {
+  max-height: 100%;
+  height: 50%;
+}
+
+header> nav section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  height: 75%;
+  width: 100%;
+  z-index: 2;
+}
+
+header > nav section a,
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+
+header > nav section img {
+  width: 25px;
+  height: 25px;
+}
+
+/* nav styling */
+
+.menuknop {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+
+.menubalken {
+  position: fixed;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  transform: translateY(-100vh);
+  transition: .5s;
+}
+
+.laatmenuzien {
+  transform: translateY(0);
+  opacity: 1;
+  margin-top: 3.1em;
+}
+
+.streepjemidden {
+  margin-top: 6px;
+}
+
+.streepjeonder {
+  margin-top: 12px
+}
+
+.verander .streepjeboven {
+  transform: rotate(-45deg);
+  margin: 6px 0;
+}
+
+.verander .streepjemidden {
+  opacity: 0;
+
+}
+
+.verander .streepjeonder {
+  transform: rotate(45deg);
+  margin: 6px 0;
+
+}
+
+.streepjeboven,
+.streepjemidden,
+.streepjeonder {
+  position: fixed;
+  background-color: black;
+  width: 20px;
+  height: 2px;
+  transition: .5s;
+
 }
 
 /* main styling */
 
 /* Styling van de zwarte banner bovenaan de pagina */
 
-section:first-of-type {
+main>section:first-of-type {
   height: 2em;
   display: flex;
   justify-content: center;
@@ -73,45 +166,46 @@ section:first-of-type {
   background-color: #333333;
 }
 
-section:first-of-type a, img {
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-text-decoration: none;
-height: 75%;
+main>section:first-of-type a,
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  height: 75%;
 }
 
 
-section:first-of-type img {
+main>section:first-of-type img {
   margin-left: 0.25em;
 }
 
 /* styling van de witte blauwe beats image met bijbehorende elementen */
 
-main > section:nth-of-type(2) {
+main>section:nth-of-type(2) {
   background-color: #5a7494;
   color: white;
   padding: 0 2em 2em 2em;
 }
 
-main > section:nth-of-type(2) h1 {
+main>section:nth-of-type(2) h1 {
   font-size: 2.3em;
 }
 
-main > section:nth-of-type(2) p {
+main>section:nth-of-type(2) p {
   font-size: 1em;
   font-weight: 900;
   padding-bottom: 1em;
 }
 
-main > section:nth-of-type(2) h1 span {
+main>section:nth-of-type(2) h1 span {
   white-space: nowrap;
   text-transform: uppercase;
 }
 
 
-main section:nth-of-type(2) img {
+main>section:nth-of-type(2) img {
   width: 100%;
 }
 
@@ -128,7 +222,7 @@ a:first-of-type img:first-of-type {
   margin-left: 0.5em;
 }
 
- section:nth-of-type(2) a:first-of-type {
+main>section:nth-of-type(2) a:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,189 +233,190 @@ a:first-of-type img:first-of-type {
   text-decoration: none;
   border-radius: 1.875em;
   font-size: 0.8em;
-  }
+}
 
-   section:nth-of-type(2) a:nth-of-type(2) {
-    margin: 2em 6em 0 0;
-    padding: 1em 2em 1em 2em;
-    border: 0.125em solid white;
-    color: white;
-    text-decoration: none;
-    border-radius: 1.875em;
-    font-size: 0.8em;
-  }
-
- 
-
-    /* styling van de image met de man met beats oortjes in met bijbehorende elementen */
-
-    section:nth-of-type(3) {
-      margin-top: 1em;
-    }
- 
-   section:nth-of-type(3) img {
-    width: 100%;
-    padding: 2em 2em 0;
-   }
-
-   section:nth-of-type(3) a {
-    margin: 0 1.2em;
-    text-decoration: none;
-    font-size: 1.5em;
-    color: #949494;
-    font-weight: 900;
-   }
-
-   
-   section:nth-of-type(3) h2:nth-of-type(1) {
-    margin: 0 1.2em;
-   }
-
-   
-   
-     /* styling van de image met de wireless earplugs en bijbehorende elementen */
-
-     section:nth-of-type(4) {
-      margin-top: 1em;
-    }
-
-     section:nth-of-type(4) img {
-      width: 100%;
-      padding: 2em 2em 0;
-     }
-  
-     section:nth-of-type(4) a {
-      margin: 0 1.2em;
-      text-decoration: none;
-      font-size: 1.5em;
-      color: #949494;
-      font-weight: 900;
-     }
-  
-     
-     section:nth-of-type(4) h2:nth-of-type(1) {
-      margin: 0 1.2em;
-     }
-
-     /* styling van de image met de black earphone en bijbehorende elementen */
-
-     section:nth-of-type(5) {
-      margin-top: 1em;
-      margin-bottom: 2em;
-    }
-
-     section:nth-of-type(5) img {
-      width: 100%;
-      padding: 2em 2em 0;
-     }
-  
-     section:nth-of-type(5) a {
-      margin: 0 1.2em;
-      margin-bottom: 2em;
-      text-decoration: none;
-      font-size: 1.5em;
-      color: #949494;
-      font-weight: 900;
-     }
-  
-     
-     section:nth-of-type(5) h2:nth-of-type(1) {
-      margin: 0 1.2em 0em;
-     }
-
-     /* styling van de footer */
-
-     footer ul {
-      width: 100%;
-      list-style: none;
-      border: solid #e5e5e5;
-      border-width: 1px 0;
-      margin: 0;
-      padding: 1.5em 0 2.5em 0;
-      font-size: 1.6em;
-     }
-
-     footer ul li {
-       display: flex;
-      float: left;
-      justify-content: center;
-      width: 3.5em;
-      color: #757575;
-    
-     }
-
-    footer article:nth-of-type(1) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #e5e5e5;
-      margin: 0em 1.1em 0 1.1em;
-      padding: 1.2em 0.5em 1.2em 0.5em;
-      font-weight: 700;
-     }
-
-     footer article:nth-of-type(1) a{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-decoration: none;
-      color: #757575;
-      font-size: 0.8em;
-     
-  
-     }
-
-    footer article:nth-of-type(1) img{
-       display: flex;
-       align-items: center;
-      font-size: 1em;
-     }
-
-     footer article:nth-of-type(2) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #e5e5e5;
-      margin: 0em 1.1em 0 1.1em;
-      padding: 1.2em 0.5em 1.2em 0.5em;
-      font-weight: 700;
-     }
-
-     footer article:nth-of-type(2) a{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-decoration: none;
-      color: #757575;
-      font-size: 0.8em;
-     
-  
-     }
-
-     footer article:nth-of-type(2) img{
-      display: flex;
-      align-items: center;
-      justify-content: space-between, center;
-      font-size: 1em;
-     }
-
-     footer article:nth-of-type(3) p {
-      color: #757575;
-      text-align: center;
-      font-size: .7333333333rem;
-      margin: 0em 2em 0 1em;
-      padding: 3em 0em 3em 0em;
-      letter-spacing: 0;
-      line-height: 1.38462;
-     }
-
-     footer article:nth-of-type(3) a img {
-      font-size: 1.7em;
-     }
+main>section:nth-of-type(2) a:nth-of-type(2) {
+  margin: 2em 6em 0 0;
+  padding: 1em 2em 1em 2em;
+  border: 0.125em solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 1.875em;
+  font-size: 0.8em;
+}
 
 
 
-     footer article:nth-of-type(3) a , p {
-      display: flex;
-      justify-content: space-between;
-     }
+/* styling van de image met de man met beats oortjes in met bijbehorende elementen */
+
+main>section:nth-of-type(3) {
+  margin-top: 1em;
+}
+
+main>section:nth-of-type(3) img {
+  width: 100%;
+  padding: 2em 2em 0;
+}
+
+main>section:nth-of-type(3) a {
+  margin: 0 1.2em;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #949494;
+  font-weight: 900;
+}
+
+
+main>section:nth-of-type(3) h2:nth-of-type(1) {
+  margin: 0 1.2em;
+}
+
+
+
+/* styling van de image met de wireless earplugs en bijbehorende elementen */
+
+main>section:nth-of-type(4) {
+  margin-top: 1em;
+}
+
+main>section:nth-of-type(4) img {
+  width: 100%;
+  padding: 2em 2em 0;
+}
+
+main>section:nth-of-type(4) a {
+  margin: 0 1.2em;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #949494;
+  font-weight: 900;
+}
+
+
+main>section:nth-of-type(4) h2:nth-of-type(1) {
+  margin: 0 1.2em;
+}
+
+/* styling van de image met de black earphone en bijbehorende elementen */
+
+main>section:nth-of-type(5) {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+main>section:nth-of-type(5) img {
+  width: 100%;
+  padding: 2em 2em 0;
+}
+
+main>section:nth-of-type(5) a {
+  margin: 0 1.2em;
+  margin-bottom: 2em;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #949494;
+  font-weight: 900;
+}
+
+
+main>section:nth-of-type(5) h2:nth-of-type(1) {
+  margin: 0 1.2em 0em;
+}
+
+/* styling van de footer */
+
+footer ul {
+  width: 100%;
+  list-style: none;
+  border: solid #e5e5e5;
+  border-width: 1px 0;
+  margin: 0;
+  padding: 1.5em 0 2.5em 0;
+  font-size: 1.6em;
+}
+
+footer ul li {
+  display: flex;
+  float: left;
+  justify-content: center;
+  width: 3.5em;
+  color: #757575;
+
+}
+
+footer article:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0em 1.1em 0 1.1em;
+  padding: 1.2em 0.5em 1.2em 0.5em;
+  font-weight: 700;
+}
+
+footer article:nth-of-type(1) a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #757575;
+  font-size: 0.8em;
+
+
+}
+
+footer article:nth-of-type(1) img {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+footer article:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0em 1.1em 0 1.1em;
+  padding: 1.2em 0.5em 1.2em 0.5em;
+  font-weight: 700;
+}
+
+footer article:nth-of-type(2) a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #757575;
+  font-size: 0.8em;
+
+
+}
+
+footer article:nth-of-type(2) img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between, center;
+  font-size: 1em;
+}
+
+footer article:nth-of-type(3) p {
+  color: #757575;
+  text-align: center;
+  font-size: .7333333333rem;
+  margin: 0em 2em 0 1em;
+  padding: 3em 0em 3em 0em;
+  letter-spacing: 0;
+  line-height: 1.38462;
+}
+
+footer article:nth-of-type(3) a img {
+  font-size: 1.7em;
+}
+
+
+
+footer article:nth-of-type(3) a,
+p {
+  display: flex;
+  justify-content: space-between;
+}
