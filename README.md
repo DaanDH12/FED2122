@@ -69,6 +69,8 @@ Alhoewel ik wel enigszins achterloop met de breakdownschetsen heb ik een aardig 
 
 ### Hieronder een een screenshot van m'n site:: 
 <img src="readmeimages/voortgang1site.png" width="375px" alt="voortgang1site">
+
+
 (vergeten foto van mijn code te maken, aangezien ik al verder was gegaan. Zie week 2 voor mijn voortgangcode)
 
 ### Agenda voor meeting
@@ -110,7 +112,23 @@ De meeting met Robert ging er goed. We hebben eerst gekeken naar de oefeningen e
 Na het 1e feedback moment ben ik eigenlijk een stuk verder gekomen dan eerst. We kwamen er tijdens mijn eerste feedback moment achter dat mijn css nogal een experimenteer document was die erg veel elementen had die veel makkelijker opgelost kunnen worden. Ik heb alles uitgesorteerd, nette notities bijgevoegd zodat dit enorm overzichtelijk is. 
 
 ### Hieronder een een screenshot van m'n site:: 
-<img src="readmeimages/voortgang2site.png" width="375px" alt="voortgang2site">
+<img src="readmeimages/voortgang2site.png" width="375px" alt="voortgang2site"> 
+
+### Deel HTML:: 
+
+<img src="readmeimages/htmlvoortgang2_1.png" width="375px" alt="htmlvoortgang2"> 
+<img src="readmeimages/htmlvoortgang2_2.png" width="375px" alt="htmlvoortgang2_2">
+
+### Deel CSS:: 
+
+<img src="readmeimages/cssvoortgang2_1.png" width="375px" alt="cssvoortgang2"> 
+<img src="readmeimages/cssvoortgang2_2.png" width="375px" alt="cssvoortgang2_2">
+
+### Deel Javascript:: 
+
+<img src="readmeimages/jsvoortgang2_1.png" width="375px" alt="jsvoortgang2"> 
+
+(De nav staat hier iets naar onder maar op de site klopt ie wel helemaal. Dit komt omdat ik een screenshot heb gemaakt in heel formaat en daarom is die naar onder geschoven)
 
 
 ### Agenda voor meeting

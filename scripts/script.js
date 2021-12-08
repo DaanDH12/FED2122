@@ -18,7 +18,7 @@ mijnmenuknop.addEventListener("click", function () {
 
 
 // elementen opgehaald die ik wil animeren 
-const allAnimationItems = document.querySelectorAll("section")
+const allAnimationItems = document.querySelectorAll(".animatiefader")
 
 const options = {
     rootMargin: "20px",
