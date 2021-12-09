@@ -64,13 +64,13 @@ button {
 }
 
 header nav {
-  height: var(--header-height);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   background-color: var(--beatswhite);
+  height: var(--header-height);
   top: 0;
   width: 100%;
   z-index: 3;
@@ -237,8 +237,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--beatswhite);
   text-decoration: none;
+  color: var(--beatswhite);
   height: 75%;
 }
 
