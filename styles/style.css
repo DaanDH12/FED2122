@@ -4,6 +4,7 @@
 *::before {
   box-sizing: border-box;
 }
+
 /* algemene styling */
 
 :root {
@@ -89,7 +90,7 @@ header>nav section {
   height: 75%;
   width: 100%;
   z-index: 3;
-  
+
 }
 
 header>nav section a,
@@ -210,14 +211,14 @@ header>nav ul li a {
 }
 
 .bodyhomepagina header>nav ul li a img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0 1em;
-    font-weight: 900;
-    margin-top: 0em;
-    font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 1em;
+  font-weight: 900;
+  margin-top: 0em;
+  font-size: 1.1em;
 }
 
 
@@ -443,7 +444,8 @@ body main>section:first-of-type img {
   font-weight: 400;
   margin: 0em 0.2em;
 }
-/* styling van de h2 / pagina 2 */ 
+
+/* styling van de h2 / pagina 2 */
 
 .kooppagina main>section:nth-of-type(2) h2:first-of-type {
   display: flex;
@@ -452,7 +454,7 @@ body main>section:first-of-type img {
   font-size: 1.8em;
 }
 
-.kooppagina main>section:nth-of-type(6) h2:nth-of-type(1){
+.kooppagina main>section:nth-of-type(6) h2:nth-of-type(1) {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -460,7 +462,7 @@ body main>section:first-of-type img {
   font-size: 1.8em;
 }
 
-.kooppagina main>section:nth-of-type(9) h2:nth-of-type(1){
+.kooppagina main>section:nth-of-type(9) h2:nth-of-type(1) {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -492,7 +494,7 @@ body main>section:first-of-type img {
 
 /* styling van de prijs van de blauwe buds / pagina 2 */
 
-.kooppagina main>section > p:first-of-type {
+.kooppagina main>section>p:first-of-type {
   display: flex;
   font-size: 1.5em;
   margin: 0.5em 1.3em;
@@ -522,7 +524,7 @@ body main>section:first-of-type img {
   flex-direction: row;
   align-items: center;
   list-style-type: none;
-  margin: 1.5em 1.5em 2em 2em; 
+  margin: 1.5em 1.5em 2em 2em;
   font-size: 0.9375em;
 }
 
@@ -663,7 +665,7 @@ footer ul {
   list-style: none;
   border: solid #e5e5e5;
   border-width: 1px 0;
-  margin: 2em 0 0 0; 
+  margin: 2em 0 0 0;
   padding: 1.5em 0 2.5em 0;
   font-size: 1.6em;
 }
