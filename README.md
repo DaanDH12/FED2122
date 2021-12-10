@@ -44,10 +44,8 @@ Koop pagina, Beats by Dr Dre
 <img src="readmeimages/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="readmeimages/breakdownschetsmenu.png" width="375px" alt="breakdown van een dynamisch deel (menu)">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -151,7 +149,7 @@ Samen met Rowin hebben wij een aantal dingen besproken:
 
 - Hoe een menu werkt en hoe je dit het best kunt aanpakken, zonder dat er iets kapot gaat binnen de code.
 - Dat ik nog even mijn alt's in de images moet bijwerken aangezien deze leeg zijn.
-- Dat ik het menu nog even moest stijlen en als ik tijd over had de zoekknop maken.
+- Dat ik het menu nog even moest stijlen.
 - Dat ik het menu in het menu niet per se hoef te doen tenzij ik tijd over had. 
 - Voor de rest zag mijn code er goed uit en kon ik aan de slag met mijn 2e pagina.
 
@@ -166,28 +164,10 @@ Samen met Rowin hebben wij een aantal dingen besproken:
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Menu Knop kan niet geselecteerd worden
+Tijdens het tabben door de site kan het menu niet geselecteerd worden.  
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Tijdens de les heb ik meerdere brillen getest, waaardoor mijn zicht verminderde. Ik heb gekeken naar mijn site,maar alle kleuren zijn goed en opvallend te zien en alles is nog zo goed als leesbaar. De tekstgrootte was ook goed en duidelijk. 
 
 </details>
 

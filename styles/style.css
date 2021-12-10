@@ -22,6 +22,7 @@
   --colorchoicebabyblue: #adddf2;
   --colorchoicegrey: #ddd;
   --colorchoicedarkgrey: #374754;
+  --colorstripemenu: #161616;
   --header-height: 3.125em;
   margin: 0;
   padding: 0;
@@ -36,12 +37,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* styling voor de animatie van de pagina */
+
+/* styling voor de animatie van de pagina met behulp van javascript code */
 
 .animatiefader {
   opacity: 0;
   transition: opacity 1s ease-in;
-
 }
 
 .animatiefader.fade {
@@ -77,8 +78,10 @@ header nav {
 }
 
 header img {
-  max-height: 100%;
-  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.3em;
 }
 
 header>nav section {
@@ -90,7 +93,6 @@ header>nav section {
   height: 75%;
   width: 100%;
   z-index: 3;
-
 }
 
 header>nav section a,
@@ -111,12 +113,13 @@ header>nav section img {
 /* nav styling */
 
 .menuknop {
-  position: relative;
-  width: 1.6em;
-  height: 1.3em;
-  margin-top: 0.5em;
-  margin-right: 1em;
+  display: flex;
+  margin-top: 0em;
+  padding: 0.5em 0 0 0.25em;
+  width: 2em;
+  height: 2em;
 }
+
 
 .menubalken {
   position: fixed;
@@ -132,12 +135,15 @@ header>nav section img {
 
 }
 
+/* menu laten zien styling */
+
 .laatmenuzien {
   transform: translateY(0);
   opacity: 1;
   margin-top: 2em;
-
 }
+
+/* menu knop stylin */
 
 .streepjemidden {
   margin-top: 0.4em;
@@ -146,6 +152,13 @@ header>nav section img {
 .streepjeonder {
   margin-top: 0.8em;
 }
+
+.streepjeboven {
+  margin-top: 0.05em;
+}
+
+/* menu knop animatie styling */
+
 
 .verander .streepjeboven {
   transform: rotate(-45deg);
@@ -161,6 +174,8 @@ header>nav section img {
   margin: 0.4em 0;
 }
 
+/* alle 3 de streepjes van menu knop styling */
+
 .streepjeboven,
 .streepjemidden,
 .streepjeonder {
@@ -173,36 +188,15 @@ header>nav section img {
 
 /* Menu styling */
 
-header>nav ul span {
+header>nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 0 1em;
   font-weight: 900;
-  margin-top: 4.7em;
   font-size: 1.1em;
 }
 
-header>nav ul span::before {
-  content: "";
-  display: block;
-  background-color: var(--beatsstripe);
-  position: absolute;
-  width: 90%;
-  bottom: 0;
-  height: 1px;
-}
-
-header>nav ul span::after {
-  content: "";
-  display: flex;
-  background-color: var(--beatsstripe);
-  position: absolute;
-  width: 90%;
-  margin-bottom: 7em;
-  height: 1px;
-}
 
 header>nav ul li a {
   text-decoration: none;
@@ -210,7 +204,7 @@ header>nav ul li a {
   color: black;
 }
 
-.bodyhomepagina header>nav ul li a img {
+header>nav ul li a img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,6 +215,36 @@ header>nav ul li a {
   font-size: 1.1em;
 }
 
+body header> nav ul li ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+body header> nav ul li ul li a img {
+  height: 1.15em;
+
+}
+
+body header> nav ul li ul li {
+margin-top: 0.5em;
+
+}
+
+body header> nav> ul> li:last-of-type {
+  margin-top: 0;
+}
+
+body header> nav> ul> li {
+  border-top: 1px solid var(--colorstripemenu);
+  padding: 2.5em 0em;
+  margin: 0 1.5em;
+}
+
+body header> nav> ul> li:first-of-type {
+  margin-top: 2em;
+}
 
 /* Styling van de zwarte banner bovenaan de pagina / pagina 1 */
 
@@ -507,7 +531,6 @@ body main>section:first-of-type img {
 .kooppagina main>section ul {
   display: flex;
   flex-direction: column;
-  align-items: left;
   text-align: left;
   margin: 0.5em 2.5em 0em;
 }
@@ -542,7 +565,7 @@ body main>section:first-of-type img {
   height: auto;
   margin: 0;
   background-color: transparent;
-  border-radius: none;
+  border-radius: 0px;
 }
 
 .kooppagina main>.section ul:nth-of-type(2) li:nth-of-type(2) {
@@ -729,7 +752,7 @@ footer article:nth-of-type(2) a {
 footer article:nth-of-type(2) img {
   display: flex;
   align-items: center;
-  justify-content: space-between, center;
+  justify-content: space-between;
   font-size: 1em;
 }
 
