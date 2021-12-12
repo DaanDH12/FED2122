@@ -258,7 +258,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 ## Kooppagina plaatjes
 
 13. https://www.beatsbydre.com/content/dam/beats/web/product/earphones/studio-buds/plp/bbd.plpasset.earbuds.studiobuds-v2.jpg.small.2x.jpg
-14. hhttps://www.beatsbydre.com/content/dam/beats/web/product/earphones/beats-flex/plp/bbd.plpasset.earbuds.flex-v2.jpg.large.2x.jpg
+14. https://www.beatsbydre.com/content/dam/beats/web/product/earphones/beats-flex/plp/bbd.plpasset.earbuds.flex-v2.jpg.large.2x.jpg
 14. https://www.beatsbydre.com/content/dam/beats/web/product/earphones/powerbeats-pro/plp/bbd.plpasset.earbuds.pbpro-v2.jpg.large.1x.jpg
 12. https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/plp/bbd.plpasset.headphones.solo3-v2.jpg.large.1x.jpg
 12. https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studio3-wireless/plp/bbd.plpasset.headphones.studio3-v2.jpg.large.1x.jpg
