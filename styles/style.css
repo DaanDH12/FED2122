@@ -9,9 +9,14 @@
 
 :root {
   text-decoration: none;
-  --beatsblue: #5a7494;
+  --beatsblack: black;
   --beatswhite: white;
+  --beatschocolateblack: #333333;
   --beatsstripe: #a7a6a6;
+  --beatsblue: #5a7494;
+  --darkgrey: #757575;
+  --beigewhite: #e5e5e5;
+  --lightgrey: #949494;
   --colorchoiceblack: #2b2b2b;
   --colorchoicerose: #ca9994;
   --colorchoicered: #b10212;
@@ -180,7 +185,7 @@ header>nav section img {
 .streepjemidden,
 .streepjeonder {
   position: fixed;
-  background-color: black;
+  background-color: var(--beatsblack);
   width: 1.4em;
   height: 2px;
   transition: .5s;
@@ -201,7 +206,7 @@ header>nav ul li {
 header>nav ul li a {
   text-decoration: none;
   font-weight: 900;
-  color: black;
+  color: var(--beatsblack);
 }
 
 header>nav ul li a img {
@@ -215,34 +220,34 @@ header>nav ul li a img {
   font-size: 1.1em;
 }
 
-body header> nav ul li ul {
+body header>nav ul li ul {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-body header> nav ul li ul li a img {
+body header>nav ul li ul li a img {
   height: 1.15em;
 
 }
 
-body header> nav ul li ul li {
-margin-top: 0.5em;
+body header>nav ul li ul li {
+  margin-top: 0.5em;
 
 }
 
-body header> nav> ul> li:last-of-type {
+body header>nav>ul>li:last-of-type {
   margin-top: 0;
 }
 
-body header> nav> ul> li {
+body header>nav>ul>li {
   border-top: 1px solid var(--colorstripemenu);
   padding: 2.5em 0em;
   margin: 0 1.5em;
 }
 
-body header> nav> ul> li:first-of-type {
+body header>nav>ul>li:first-of-type {
   margin-top: 2em;
 }
 
@@ -253,7 +258,7 @@ body main>section:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333333;
+  background-color: var(--beatschocolateblack);
 }
 
 body main>section:first-of-type a,
@@ -318,7 +323,7 @@ body main>section:first-of-type img {
   margin: 2em 2em 0 0;
   padding: 1em 2em 1em 2em;
   background-color: var(--beatswhite);
-  color: black;
+  color: var(--beatsblack);
   text-decoration: none;
   border-radius: 1.875em;
   font-size: 0.8em;
@@ -349,15 +354,9 @@ body main>section:first-of-type img {
   margin: 0 1.2em;
   text-decoration: none;
   font-size: 1.5em;
-  color: #949494;
+  color: var(--lightgrey);
   font-weight: 900;
 }
-
-.bodyhomepagina main>section:nth-of-type(3) a:hover {
-  color: red;
-  transition: 0.2s ease-in;
-}
-
 
 .bodyhomepagina main>section:nth-of-type(3) h2:nth-of-type(1) {
   margin: 0 1.2em;
@@ -378,7 +377,7 @@ body main>section:first-of-type img {
   margin: 0 1.2em;
   text-decoration: none;
   font-size: 1.5em;
-  color: #949494;
+  color: var(--lightgrey);
   font-weight: 900;
 }
 
@@ -404,7 +403,7 @@ body main>section:first-of-type img {
   margin-bottom: 2em;
   text-decoration: none;
   font-size: 1.5em;
-  color: #949494;
+  color: var(--lightgrey);
   font-weight: 900;
 }
 
@@ -423,7 +422,7 @@ body main>section:first-of-type img {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: #161616;
+  background-color: var(--colorstripemenu);
   color: var(--beatswhite);
   padding: 1.6em 2em;
   z-index: 2;
@@ -453,7 +452,7 @@ body main>section:first-of-type img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #333333;
+  background-color: var(--beatschocolateblack);
   margin: 6.5em 0 0 0;
 }
 
@@ -686,7 +685,7 @@ body main>section:first-of-type img {
 footer ul {
   width: 100%;
   list-style: none;
-  border: solid #e5e5e5;
+  border: solid var(--beigewhite);
   border-width: 1px 0;
   margin: 2em 0 0 0;
   padding: 1.5em 0 2.5em 0;
@@ -698,7 +697,7 @@ footer ul li {
   float: left;
   justify-content: center;
   width: 3.5em;
-  color: #757575;
+  color: var(--darkgrey);
 
 }
 
@@ -706,7 +705,7 @@ footer article:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--beigewhite);
   margin: 0em 1.1em 0 1.1em;
   padding: 1.2em 0.5em 1.2em 0.5em;
   font-weight: 700;
@@ -717,7 +716,7 @@ footer article:nth-of-type(1) a {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #757575;
+  color: var(--darkgrey);
   font-size: 0.8em;
 
 }
@@ -732,7 +731,7 @@ footer article:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--beigewhite);
   margin: 0em 1.1em 0 1.1em;
   padding: 1.2em 0.5em 1.2em 0.5em;
   font-weight: 700;
@@ -743,7 +742,7 @@ footer article:nth-of-type(2) a {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #757575;
+  color: var(--darkgrey);
   font-size: 0.8em;
 
 
@@ -757,7 +756,7 @@ footer article:nth-of-type(2) img {
 }
 
 footer article:nth-of-type(3) p {
-  color: #757575;
+  color: var(--darkgrey);
   text-align: center;
   font-size: .7333333333rem;
   margin: 0em 2em 0 1em;

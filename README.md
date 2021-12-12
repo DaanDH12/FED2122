@@ -181,28 +181,31 @@ Tijdens de les heb ik meerdere brillen getest, waaardoor mijn zicht verminderde.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Voor het laatste feedback gesprek waren allebei mijn website pagina's eigenlijk al klaar. Ik had nog een paar vragen wat beseft de surface plane, maar geen spraakmakende vragen waarmee ik echt hulp nodig had.
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+ik had geen vragen meer tijdens het gesprek dus Rebecca en Isabelle hebben allebei nog een paar vragen gesteld over een paar elementen die niet meewerkte op het scherm. Hier heb ik meegekeken hoe en wat en ook een beetje geholpen met de oplossing! Toen heb ik met Isabelle prive nog een dingetje voor haar site opgelost, terwijl de studentassistent Rebecca aan het helpen was.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+### student 1 Rebecca 
+- Hoe sluit ik het beste een filter menu 
+ - Waarom doet de "lees meer" button het niet 
+ - Hoe kan ik het hartje van kleur laten veranderen
+ 
+ ### student 2 Beyza 
+ -
+ 
+### student 3 Isabelle 
+ - Hoe kan ik het beste een input stijlen zonder class. 
+ 
+### student 4 Ik
+- 
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Na de meeting wist ik echt zeker dat mijn site klaar was en viel er wel een last van mijn schouders. De site is ready om ingeleverd te worden en dat geeft me echt een goed gevoel.
 
 </details>
+
 
 
 
@@ -214,12 +217,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Eigenlijk heb ik niet echt grote problemen ervaren. er waren wel een paar dingen die ik niet snapte zoals de javascript van het hamburger menu en mijn moeilijke Intersection Observer, maar na de uitleg hoe dit in zijn werk ging begreep ik het wel. 
+
+Het enige waarmee ik af en toe moeite had was het benoemen van het juiste element in de CSS, maar dit is puur gebeurd omdat ik af en toe erg laks was met tellen van het aantal section bijvoorbeeld voor een Nth-of-Type().
+
+Ik ben trots op wat ik met die vak heb mogen bereiken en had in het begin verwacht dat dit me echt niet ging lukken! Helaas had ik geen tijd meer voor de zoek knop en het + knopje in het menu, anders had ik die erg graag afgemaakt, maar het tijdsbestek was daar net te krap voor. 
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="readmeimages/homepaginaeindproduct" width="375px" alt="homepaginaeindproduct"> 
+<img src="readmeimages/kooppaginaeindproduct" width="375px" alt="kooppaginaeindproduct"> 
 
+(Door de Intersection Observer pakt hij sommige elementen niet, waardoor hij deze dus nog niet laat zien in de screenshot. De site klopt wel gewoon.)
 </details>
 
 
@@ -246,5 +255,13 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 11. https://www.svgrepo.com/svg/3271/arrow-pointing-to-right-in-a-circle
 12. https://www.svgrepo.com/svg/7385/apple
 
+## Kooppagina plaatjes
+
+13. https://www.beatsbydre.com/content/dam/beats/web/product/earphones/studio-buds/plp/bbd.plpasset.earbuds.studiobuds-v2.jpg.small.2x.jpg
+14. hhttps://www.beatsbydre.com/content/dam/beats/web/product/earphones/beats-flex/plp/bbd.plpasset.earbuds.flex-v2.jpg.large.2x.jpg
+14. https://www.beatsbydre.com/content/dam/beats/web/product/earphones/powerbeats-pro/plp/bbd.plpasset.earbuds.pbpro-v2.jpg.large.1x.jpg
+12. https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/plp/bbd.plpasset.headphones.solo3-v2.jpg.large.1x.jpg
+12. https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studio3-wireless/plp/bbd.plpasset.headphones.studio3-v2.jpg.large.1x.jpg
+12. https://www.beatsbydre.com/content/dam/beats/web/product/speakers/pill-plus/plp/bbd.plpasset.speakers.pillplus-v2.jpg.large.1x.jpg
 
 </details>
