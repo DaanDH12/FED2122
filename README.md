@@ -225,8 +225,8 @@ Ik ben trots op wat ik met die vak heb mogen bereiken en had in het begin verwac
 
 ### Screenshot(s)
 
-<img src="readmeimages/homepaginaeindproduct" width="375px" alt="homepaginaeindproduct"> 
-<img src="readmeimages/kooppaginaeindproduct" width="375px" alt="kooppaginaeindproduct"> 
+<img src="readmeimages/homepaginaeindproduct.png" width="375px" alt="homepaginaeindproduct"> 
+<img src="readmeimages/kooppaginaeindproduct.png" width="375px" alt="kooppaginaeindproduct"> 
 
 (Door de Intersection Observer pakt hij sommige elementen niet, waardoor hij deze dus nog niet laat zien in de screenshot. De site klopt wel gewoon.)
 </details>
